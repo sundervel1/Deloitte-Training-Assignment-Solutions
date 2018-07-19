@@ -1,0 +1,230 @@
+Questions:
+
+Java Assignment - 1
+
+       Create a program to print stars : * in a pyramid form
+        Increase by one * till half of rows and then by two for rest of rows
+
+               *    
+              * *   
+             * * *  
+           * * * * *  
+         * * * * * * *  
+      * * * * * * * * *
+
+Java Assignment - 2
+
+In a for loop of a set of natural numbers 1 to 50,
+print 'abc' if it is divisible by 3,
+print 'xyz' if it is divisible by 5,
+and 'abcxyz' if divisible by both 3 and 5,
+else print the number itself
+Output will be like :
+1 2 abc 4 xyz abc 7 8 abc xyz 11 abc 13 14 abcxyz 16 .....
+
+
+
+
+Java Assignment - 3
+
+
+Create a class Calculator
+
+  Create methods add, subtract, divide, multiply which returns appropriate values.
+
+  Test each method using values and getting the results.
+
+  The output should be like :
+
+     The sum of 12 and 25 is 37
+  System.out.println ( "The sum of "+a+" and "+b+" is "+sum);
+
+
+
+Java Assignment - 4
+
+Create a class NumberUtil with two methods
+ 1. to return the product of two numbers
+ 2. to return square root of a number
+		Math.sqrt(a)  a is double
+Take input from keyboard : use Scanner class
+   and pass values to methods above.
+Print the results from each method
+
+
+
+
+Java Assignment - 5
+
+
+Declare an array of characters.
+
+char [] cArr = { 'B', 'U', 'H', 'D', 'I', 'U', 'Q', 'I', 'L' };
+
+Display the characters in reverse order
+
+
+
+
+
+
+Java Assignment - 6
+
+  Create a method to return the factorial of a given number.
+(Factorial of a number is the product of all natural numbers from 1 upto to the number)
+
+
+
+
+Java Assignment - 7
+
+Create a method to check if a number is a prime number and return true or false
+
+(A number is  prime if it is divisible by 1 and itself only)
+
+
+
+
+Java Assignment - 8
+
+
+Create a class SumAtPrime. Create a method getSumAtPrime which takes an int array as parameter.
+
+The sum of all numbers in the array at indexes which are prime numbers should be returned by this method.
+
+Prime number is a natural number greater than 1 and which is divisible by 1 and itself only.
+viz 2,3,5,7,11,13,...
+
+For example :
+
+For int array {1,2,3,4,5,6,7,8,9,10,11,12,13,14} we need to add numbers 3+4+6+8+12+14 as they are in prime locations.
+
+
+
+
+Java Assignment - 9
+
+
+ Create a program to convert decimal numbers to Roman numerals (upto 3000)
+
+1=I, 5=V, 10=X, 50=L, 100=C, 500=D, 1000=M
+
+
+
+
+Java Assignment - 10
+
+
+Write an application that uses random number generation to create sentences. 
+Use four arrays of strings called Article, Noun, Verb and Preposition. 
+Create a sentence by selecting a word at random from each array in the following order: Article, Noun, Verb, Preposition, Article and Noun. 
+As each word is picked concatenate it to the previous words in the sentence. The words should be separated by spaces. 
+When the final sentence is output, it should start with Capital Letter and end with a Full Stop. 
+The program should generate 20 sentences and output them to console. 
+
+The arrays should be filled as follows: 
+article : {"the", "a",  "one", "some" };
+noun : {"boy", "girl", "dog", "town", "car"};
+verb :  {"drove", "jumped", "ran", "walked", "skipped"};
+preposition : {"to", "from", "over", "under", "on"};
+
+e.g   :    The girl ran from a dog.
+
+For Random number:
+   new Random().nextInt(size);
+
+
+Java Assignment - 11
+
+Print whole numbers 8 to 13  and 6 to 1 alternatively
+Should be: 8 6 9 5 10 4 ...... and so on
+
+
+
+
+
+Java Assignment  - 12
+
+Print the square of natural prime numbers, the result should be upto maximum of 900.
+
+
+
+
+
+Java Assignment - 13
+
+Print all divisors of number 50
+
+
+
+
+Java Assignment - 14
+Accept the ID in form nnn-nn-nnnn where n is a digit, from user, validate it and if valid, then accept password from user and validate it.
+Password should have atleast one uppercase, one lowercase letters,
+one digit, one of these: #$%^&* and be 8 chars long
+
+
+
+Java Assignment - 15
+
+Copy data from a .csv file into database table. Each row in file should be one record in db.
+At a time a chunk of lines, say 5, should be copied.
+
+
+Java Assignment - 16
+
+throw exception in case of any error or wrong conditions
+Take input from user : id, name, age, mobile
+Create Emp object and initialize with the values
+Validate the age to be 18 to 60
+Validate name to have initial caps with only alphabets
+Validate mobile to start with 9, 8 or 7 followed by 9 digits
+Store each value in a file comma separated.
+Read the file and retrieve the data and initialze Emp object
+Display the Emp object
+
+Java Assignment - 17
+Create a file with 20 lines like following :
+123-44-1256
+123-44-106
+
+That is three numbers, hyphen, two numbers, hyphen, four numbers
+These are ids of persons
+Create a program to read this file, take each line as input, validate using regular expression 
+and write to another file like :
+123-44-1256 : valid
+123-44-106 : invalid
+Use Pattern and Matcher classes
+
+Java Assignment - 18
+Create an array of natural numbers >0
+ e.g. 12 34 56 234 111 11 22 45
+Create another array whose elements are the sum of digits of the above array elements
+So the example above would be 
+3 7 11 9 3 2 4 9
+Sort this new array in ascending order
+2 3 3 4 7 9 9 11
+Display the elements of original array as per the locations of the new array
+So output: 11 12 111 22 34 234 45 56
+To improve further, 234 and 45 should be interchanged
+So final output: 11 12 111 22 34 45 234 56
+
+Java Assignment - 19
+A movie uses a .srt (SubRip Title) file for displaying subtitles
+The subtitles are displayed from a start time to end time for each dialog
+represented in the following format
+HH:MM:SS,sss --> HH:MM:SS,sss
+The start time should be earlier than end time
+The end time should not be later than next dialog's start time
+Create a program to validate the .srt file time lines
+Sample :
+   5
+   00:03:06,000 --> 00:03:08,060
+   What's going on? What's happened?
+
+   6
+   00:03:08,070 --> 00:03:09,420
+   What's the matter?
+
+Note:   The above are valid
+
