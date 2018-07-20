@@ -12,7 +12,7 @@ public class Q2 {
 				System.out.print(s1 + " ");
 			} else if (i % 5 == 0) {
 				System.out.print(s2 + " ");
-			} else if ((i % 3 == 0) && (i % 5 == 0)) {
+			} else if ((i % 3 == 0) && (i % 5 == 0)) { // it is not prinitng abcxyz as it is taken by first if condition
 				System.out.print(s3 + " ");
 			} else {
 				System.out.print(i + " ");
